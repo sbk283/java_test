@@ -2,16 +2,17 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!\n");
-        for (int i = 1; i <= 5; i++) {
-            if (i<3) {
-                System.out.println(i +"교시입니다.");
-            } else if (i<5) {
-                System.out.println(i +"교시입니다. 절반 왔습니다.");
-            } else {
-                System.out.println(i +"교시입니다. 거의다 끝났습니다.");
-            }
+        // System.out 여기서 . 은 of 를 의미 합니다.
+        System.out.println(100); // 여기서 println(100); 와 같은 형태는 타 동사를 의미합니다.
+        System.out.println(100); // 여기서 System.out 은 주어를 의미 합니다.
+        System.out.println(100); // 여기서 100은 목적어 또는 보어 입니다.
+        System.out.println(100); // 개발자가 "System.out" 라는 녀석에게 100 을 println 하라는 의미
 
-        }
+        // 프로그램의 시작점
+        System.out.println(1); // 실행순서 1 : 숫자는 " 로 감싸지 않아도 됩니다.
+        System.out.println("2");
+        System.out.println("3");
+        System.out.println("사");
+        // 프로그램의 끝점
     }
 }
